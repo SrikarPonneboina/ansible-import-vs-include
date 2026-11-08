@@ -1,5 +1,5 @@
 - name: include-vs-import 
-  hosts: "{{ component }}"
+  hosts: local
   connection: local
   roles:
   - role-1
