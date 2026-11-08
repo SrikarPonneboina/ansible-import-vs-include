@@ -1,5 +1,5 @@
-- name: import vs include
-  hosts: local
+- name: include-vs-import 
+  hosts: "{{ component }}"
   connection: local
-  tasks: 
-  - name: 
+  roles:
+  - role-1
