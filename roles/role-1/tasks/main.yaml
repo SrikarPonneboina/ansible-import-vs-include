@@ -1,5 +1,6 @@
 - name: call from role
-  import_role:
+  include_role:
+  #import_role:
     name: common
   when: course == "ansible"
   tags:
