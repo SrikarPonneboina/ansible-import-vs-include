@@ -2,9 +2,10 @@
   include_role:
   #import_role:
     name: common
-  when: course == "ansible"
-  tags:
-  - hi
-  loop:
-  - srikar
-  - ponna
+  tasks_from: main
+  # when: course == "ansible"
+  # tags:
+  # - hi
+  # loop:
+  # - srikar
+  # - ponna
